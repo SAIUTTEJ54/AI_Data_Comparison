@@ -1,0 +1,233 @@
+[
+    {
+        "test_id": "TC01",
+        "case_type": "Perfect Match",
+        "form_data": {
+            "name": "Rahul",
+            "age": 22,
+            "department": "CSE",
+            "college": "BVRIT"
+        },
+        "database_data": {
+            "name": "Rahul",
+            "age": 22,
+            "department": "CSE",
+            "college": "BVRIT"
+        }
+    },
+    {
+        "test_id": "TC02",
+        "case_type": "Incorrect Value",
+        "form_data": {
+            "name": "Rahul",
+            "age": 22,
+            "department": "CSE",
+            "college": "BVRIT"
+        },
+        "database_data": {
+            "name": "Rahul",
+            "age": 23,
+            "department": "CSE",
+            "college": "BVRIT"
+        }
+    },
+    {
+        "test_id": "TC03",
+        "case_type": "Extra Information",
+        "form_data": {
+            "name": "Rahul",
+            "age": 22,
+            "department": "CSE"
+        },
+        "database_data": {
+            "name": "Rahul",
+            "age": 22,
+            "department": "CSE",
+            "phone": "9876543210"
+        }
+    },
+    {
+        "test_id": "TC04",
+        "case_type": "Missing Information",
+        "form_data": {
+            "name": "Priya",
+            "age": 21,
+            "department": "ECE",
+            "college": "BVRIT"
+        },
+        "database_data": {
+            "name": "Priya",
+            "age": 21,
+            "department": "ECE"
+        }
+    },
+    {
+        "test_id": "TC05",
+        "case_type": "Incorrect Department",
+        "form_data": {
+            "name": "Arjun",
+            "age": 23,
+            "department": "CSE",
+            "college": "BVRIT"
+        },
+        "database_data": {
+            "name": "Arjun",
+            "age": 23,
+            "department": "ECE",
+            "college": "BVRIT"
+        }
+    },
+    {
+        "test_id": "TC06",
+        "case_type": "Multiple Differences",
+        "form_data": {
+            "name": "Kiran",
+            "age": 20,
+            "department": "CSE",
+            "college": "BVRIT"
+        },
+        "database_data": {
+            "name": "Kiran",
+            "age": 21,
+            "department": "IT",
+            "college": "BVRIT"
+        }
+    },
+    {
+        "test_id": "TC07",
+        "case_type": "Missing College",
+        "form_data": {
+            "name": "Anil",
+            "age": 22,
+            "department": "EEE",
+            "college": "BVRIT"
+        },
+        "database_data": {
+            "name": "Anil",
+            "age": 22,
+            "department": "EEE"
+        }
+    },
+    {
+        "test_id": "TC08",
+        "case_type": "Extra Email",
+        "form_data": {
+            "name": "Sneha",
+            "age": 21,
+            "department": "CSE"
+        },
+        "database_data": {
+            "name": "Sneha",
+            "age": 21,
+            "department": "CSE",
+            "email": "sneha@example.com"
+        }
+    },
+    {
+        "test_id": "TC09",
+        "case_type": "Incorrect Name",
+        "form_data": {
+            "name": "Ravi",
+            "age": 22,
+            "department": "CSE"
+        },
+        "database_data": {
+            "name": "Ravi Kumar",
+            "age": 22,
+            "department": "CSE"
+        }
+    },
+    {
+        "test_id": "TC10",
+        "case_type": "Perfect Match",
+        "form_data": {
+            "name": "Meena",
+            "age": 20,
+            "department": "IT",
+            "college": "BVRIT"
+        },
+        "database_data": {
+            "name": "Meena",
+            "age": 20,
+            "department": "IT",
+            "college": "BVRIT"
+        }
+    },
+    {
+        "test_id": "TC11",
+        "case_type": "Missing Multiple Fields",
+        "form_data": {
+            "name": "Vijay",
+            "age": 24,
+            "department": "ECE",
+            "college": "BVRIT",
+            "email": "vijay@example.com"
+        },
+        "database_data": {
+            "name": "Vijay",
+            "age": 24
+        }
+    },
+    {
+        "test_id": "TC12",
+        "case_type": "Extra Multiple Fields",
+        "form_data": {
+            "name": "Divya",
+            "age": 21,
+            "department": "CSE"
+        },
+        "database_data": {
+            "name": "Divya",
+            "age": 21,
+            "department": "CSE",
+            "phone": "9000000000",
+            "email": "divya@example.com"
+        }
+    },
+    {
+        "test_id": "TC13",
+        "case_type": "Age Conflict",
+        "form_data": {
+            "name": "Suresh",
+            "age": 25,
+            "department": "MECH"
+        },
+        "database_data": {
+            "name": "Suresh",
+            "age": 26,
+            "department": "MECH"
+        }
+    },
+    {
+        "test_id": "TC14",
+        "case_type": "Sensitive Information",
+        "form_data": {
+            "name": "Neha",
+            "age": 22,
+            "department": "CSE",
+            "phone": "9000000001"
+        },
+        "database_data": {
+            "name": "Neha",
+            "age": 22,
+            "department": "CSE",
+            "phone": "9000000002"
+        }
+    },
+    {
+        "test_id": "TC15",
+        "case_type": "Perfect Match",
+        "form_data": {
+            "name": "Rohit",
+            "age": 23,
+            "department": "ECE",
+            "college": "BVRIT"
+        },
+        "database_data": {
+            "name": "Rohit",
+            "age": 23,
+            "department": "ECE",
+            "college": "BVRIT"
+        }
+    }
+]

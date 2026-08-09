@@ -1,0 +1,218 @@
+[
+    {
+        "missing_information": [],
+        "incorrect_information": [],
+        "conflicting_information": [],
+        "extra_information": [],
+        "test_id": "TC01",
+        "case_type": "Perfect Match"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [
+            {
+                "field": "age",
+                "form_value": 22,
+                "database_value": 23
+            }
+        ],
+        "conflicting_information": [
+            "The age value in the form (22) does not match the database value (23)."
+        ],
+        "extra_information": [],
+        "test_id": "TC02",
+        "case_type": "Incorrect Value"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [],
+        "conflicting_information": [],
+        "extra_information": [
+            {
+                "field": "phone",
+                "value": "9876543210"
+            }
+        ],
+        "test_id": "TC03",
+        "case_type": "Extra Information"
+    },
+    {
+        "missing_information": [
+            {
+                "field": "college",
+                "value": "BVRIT"
+            }
+        ],
+        "incorrect_information": [],
+        "conflicting_information": [],
+        "extra_information": [],
+        "test_id": "TC04",
+        "case_type": "Missing Information"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [
+            {
+                "field": "department",
+                "form_value": "CSE",
+                "database_value": "ECE"
+            }
+        ],
+        "conflicting_information": [
+            "The department value in the form (CSE) does not match the database value (ECE)."
+        ],
+        "extra_information": [],
+        "test_id": "TC05",
+        "case_type": "Incorrect Department"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [
+            {
+                "field": "age",
+                "form_value": 20,
+                "database_value": 21
+            },
+            {
+                "field": "department",
+                "form_value": "CSE",
+                "database_value": "IT"
+            }
+        ],
+        "conflicting_information": [
+            "The age value in the form (20) does not match the database value (21).",
+            "The department value in the form (CSE) does not match the database value (IT)."
+        ],
+        "extra_information": [],
+        "test_id": "TC06",
+        "case_type": "Multiple Differences"
+    },
+    {
+        "missing_information": [
+            {
+                "field": "college",
+                "value": "BVRIT"
+            }
+        ],
+        "incorrect_information": [],
+        "conflicting_information": [],
+        "extra_information": [],
+        "test_id": "TC07",
+        "case_type": "Missing College"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [],
+        "conflicting_information": [],
+        "extra_information": [
+            {
+                "field": "email",
+                "value": "sneha@example.com"
+            }
+        ],
+        "test_id": "TC08",
+        "case_type": "Extra Email"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [
+            {
+                "field": "name",
+                "form_value": "Ravi",
+                "database_value": "Ravi Kumar"
+            }
+        ],
+        "conflicting_information": [
+            "The name value in the form (Ravi) does not match the database value (Ravi Kumar)."
+        ],
+        "extra_information": [],
+        "test_id": "TC09",
+        "case_type": "Incorrect Name"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [],
+        "conflicting_information": [],
+        "extra_information": [],
+        "test_id": "TC10",
+        "case_type": "Perfect Match"
+    },
+    {
+        "missing_information": [
+            {
+                "field": "department",
+                "value": "ECE"
+            },
+            {
+                "field": "college",
+                "value": "BVRIT"
+            },
+            {
+                "field": "email",
+                "value": "vijay@example.com"
+            }
+        ],
+        "incorrect_information": [],
+        "conflicting_information": [],
+        "extra_information": [],
+        "test_id": "TC11",
+        "case_type": "Missing Multiple Fields"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [],
+        "conflicting_information": [],
+        "extra_information": [
+            {
+                "field": "phone",
+                "value": "9000000000"
+            },
+            {
+                "field": "email",
+                "value": "divya@example.com"
+            }
+        ],
+        "test_id": "TC12",
+        "case_type": "Extra Multiple Fields"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [
+            {
+                "field": "age",
+                "form_value": 25,
+                "database_value": 26
+            }
+        ],
+        "conflicting_information": [
+            "The age value in the form (25) does not match the database value (26)."
+        ],
+        "extra_information": [],
+        "test_id": "TC13",
+        "case_type": "Age Conflict"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [
+            {
+                "field": "phone",
+                "form_value": "9000000001",
+                "database_value": "9000000002"
+            }
+        ],
+        "conflicting_information": [
+            "The phone value in the form (9000000001) does not match the database value (9000000002)."
+        ],
+        "extra_information": [],
+        "test_id": "TC14",
+        "case_type": "Sensitive Information"
+    },
+    {
+        "missing_information": [],
+        "incorrect_information": [],
+        "conflicting_information": [],
+        "extra_information": [],
+        "test_id": "TC15",
+        "case_type": "Perfect Match"
+    }
+]
